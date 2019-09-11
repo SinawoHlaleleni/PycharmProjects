@@ -7,6 +7,7 @@ install:
   - pip install -r requirements.txt
 script:
 
+  - python Prac.py
   - python Ex18.py
   - python Ex19.py
   - python Ex21.py
