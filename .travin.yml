@@ -1,0 +1,21 @@
+language: python
+
+python:
+  - "3.7.3"
+cache: pip
+install:
+  - pip install -r requirements.txt
+script:
+
+  - python Ex18.py
+  - python Ex19.py
+  - python Ex21.py
+  - python Ex24.py
+  - python Ex26.py
+  - python Ex29.py
+  - python Ex30.py
+  - python Ex32.py
+  - python Ex33.py
+  - python Ex34.py
+  - python Ex38.py
+  - python Ex39.py
